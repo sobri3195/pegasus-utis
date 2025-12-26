@@ -1,0 +1,4 @@
+# Domains to denylist (lower-case)
+# Example entries
+example-bad.com
+phish.example
