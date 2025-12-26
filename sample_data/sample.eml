@@ -1,0 +1,9 @@
+From: "Alert" <alert@secure-payments.bad>
+Return-Path: <noreply@secure-payments.bad>
+Message-ID: <abc123@example.com>
+Received: from mail.bad.example (mail.bad.example [203.0.113.10])
+	by mx.example.com with ESMTP id 12345
+Authentication-Results: mx.example.com; spf=fail; dkim=fail; dmarc=fail
+Subject: Urgent action required
+
+Please verify your account at https://secure-payments.bad/login

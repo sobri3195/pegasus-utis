@@ -1,0 +1,7 @@
+12/01/24, 08:00 - Alice: Pagi!
+12/01/24, 08:01 - Bob: Pagi juga.
+12/01/24, 09:15 - Alice: Meeting jam 10 ya.
+13/01/24, 20:00 - Bob: Siap.
+13/01/24, 20:05 - Alice: Terima kasih.
+14/01/24, 07:30 - Alice: Good morning.
+14/01/24, 07:45 - Bob: Morning!

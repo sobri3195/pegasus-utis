@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "from": "\"Alert\" <alert@secure-payments.bad>",
+    "return_path": "<noreply@secure-payments.bad>",
+    "message_id": "<abc123@example.com>",
+    "received_chain": [
+      "from mail.bad.example (mail.bad.example [203.0.113.10])\tby mx.example.com with ESMTP id 12345"
+    ],
+    "authentication_results": "mx.example.com; spf=fail; dkim=fail; dmarc=fail"
+  },
+  "urls": ["https://secure-payments.bad/login"],
+  "risk": {
+    "score": 50,
+    "flags": ["denylist:secure-payments.bad"]
+  },
+  "spoofing_indicators": ["from_return_path_mismatch"],
+  "notes": "Header-based analysis only (no DNS lookup)."
+}
