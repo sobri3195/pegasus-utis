@@ -1,0 +1,17 @@
+{
+  "messages_total": 7,
+  "messages_per_day": {
+    "2024-01-12": 3,
+    "2024-01-13": 2,
+    "2024-01-14": 2
+  },
+  "active_hours": {
+    "7": 2,
+    "8": 2,
+    "9": 1,
+    "20": 2
+  },
+  "top_words": [["pagi", 2], ["morning", 2], ["meeting", 1]],
+  "avg_response_seconds": 300,
+  "anomaly_days": []
+}

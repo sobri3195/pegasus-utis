@@ -1,0 +1,12 @@
+{
+  "query": "email@example.com",
+  "results": [
+    {
+      "title": "Local Evidence",
+      "summary": "email@example.com - Public profile on example.com",
+      "source": "sample_data/osint_dataset.txt",
+      "timestamp": "2024-01-14T09:00:00Z"
+    }
+  ],
+  "generated_at": "2024-01-14T09:00:01Z"
+}
