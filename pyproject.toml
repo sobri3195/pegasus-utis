@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=65.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "utis"
+version = "0.1.0"
+description = "Unified Tracking & Intelligence System - consent-based location tracking, email security, WhatsApp analytics, and OSINT"
+authors = [{name = "UTIS Team"}]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi>=0.104.0",
+    "uvicorn[standard]>=0.24.0",
+    "click>=8.1.0",
+    "httpx>=0.25.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+]
+plot = [
+    "matplotlib>=3.7.0",
+]
+whatsapp = [
+    "python-dateutil>=2.8.0",
+]
+all = [
+    "python-dateutil>=2.8.0",
+    "matplotlib>=3.7.0",
+]
+
+[project.scripts]
+utis = "utis.cli:cli"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["utis*"]
+
+[tool.setuptools.package-data]
+"utis.modules.email" = ["lists/*.txt"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]
+
+[tool.coverage.run]
+source = ["utis"]
+omit = ["*/tests/*"]

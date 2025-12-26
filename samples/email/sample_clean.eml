@@ -1,0 +1,13 @@
+From: John Smith <john@example.com>
+Return-Path: <john@example.com>
+Message-ID: <abc123@example.com>
+Subject: Meeting tomorrow
+Date: Mon, 1 Jan 2024 10:00:00 +0000
+Authentication-Results: spf=pass dkim=pass dmarc=pass
+
+Hi team,
+
+Please see the agenda for tomorrow's meeting at https://docs.example.com/agenda.
+
+Best,
+John

@@ -1,0 +1,6 @@
+# Email domains to allowlist (lower-case)
+# Lines starting with # are comments
+google.com
+github.com
+linkedin.com
+microsoft.com

@@ -1,0 +1,9 @@
+From: Payroll <payroll@company.com>
+Return-Path: <bounce@evil-payroll.xyz>
+Message-ID: <999@evil-payroll.xyz>
+Subject: URGENT: Update your bank info
+Authentication-Results: spf=fail dkim=fail dmarc=fail
+
+Please update your bank information immediately:
+https://192.0.2.10/secure/login
+https://xn--paypa1-3ve.example/topup
